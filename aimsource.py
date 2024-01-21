@@ -33,9 +33,9 @@ resetall = Style.RESET_ALL
 
 system("title Colorbot")
 
-if urlopen("https://raw.githubusercontent.com/AndrewDarkyy/Colorbot-Modded/main/version.txt").read().decode("utf-8") != "v1.9\n":
-    print(Style.BRIGHT + Fore.CYAN + "This version is outdated, please get the latest one at " + Fore.YELLOW + "https://github.com/AndrewDarkyy/Colorbot-Modded/releases" + resetall)
-    openwebpage("https://github.com/AndrewDarkyy/Colorbot-Modded/releases")
+if urlopen("https://raw.githubusercontent.com/ghoulishgg/colorbot/main/version.txt").read().decode("utf-8") != "v2.0\n":
+    print(Style.BRIGHT + Fore.CYAN + "This version is outdated, please get the latest one at " + Fore.YELLOW + "https://github.com/ghoulishgg/colorbot/releases" + resetall)
+    openwebpage("https://github.com/ghoulishgg/colorbot/releases")
     while True:
         pass
 
@@ -231,8 +231,8 @@ class colorbot:
 
 def print_banner(bot):
     system("cls")
-    print(Style.BRIGHT + Fore.CYAN + "Colorbot for Arsenal!" + Fore.RED + " Credits to @andrewdarkyy. and @seconb" + resetall)
-    print(Style.BRIGHT + Fore.GREEN + "Join our discord server for updates and configs https://discord.gg/nDREsRUj9V" + resetall)
+    print(Style.BRIGHT + Fore.CYAN + "colorbot for Arsenal!" + Fore.RED + " Credits to @etheralaimer" + resetall)
+    print(Style.BRIGHT + Fore.GREEN + "Join our discord server for updates and configs https://discord.gg/APmRJGRu9f" + resetall)
     print(Style.BRIGHT + Fore.MAGENTA + "Make sure you fullscreen your Roblox window and are in the web version!" + resetall)
     print(Style.BRIGHT + Fore.YELLOW + "====== Controls ======" + resetall)
     print("Aimbot Keybind       :", Fore.YELLOW + key_tostring(AIM_KEY) + resetall)
@@ -259,10 +259,10 @@ try:
     with open(maindir + "/lastlaunch.txt", "r+") as buffer:
         currenttime = time()
         if currenttime - float(buffer.read()) >= 17990:
-            openwebpage("https://discord.gg/nDREsRUj9V")
+            openwebpage("https://discord.gg/APmRJGRu9")
             buffer.write(str(currenttime))
 except:
-    openwebpage("https://discord.gg/nDREsRUj9V")
+    openwebpage("https://discord.gg/APmRJGRu9")
     with open(maindir + "/lastlaunch.txt", "w+") as buffer:
         buffer.write(str(time()))
 
