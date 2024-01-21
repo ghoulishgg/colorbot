@@ -1,0 +1,33 @@
+[Config]
+
+# The keybinds. Please note that you can set them to RightClick/LeftClick/MiddleClick/SideButton1/SideButton2 also
+AIM_KEY = T
+SWITCH_MODE_KEY = F5
+
+# The circle fov for your colorbot. Increase this to target larger area (it will affect your fps by a lot)
+AIM_FOV = 70
+
+# The size of the screenshot. Recommended to be a little bit bigger than AIM_FOV
+CAM_FOV = 75
+
+# Triggerbot delay will add a delay, before shooting. This makes it seem more legit. For legitimacy, anything from 0.1 - 0.3 is recommended
+TRIGGERBOT_DELAY = 0
+
+# Speed on the X and Y axes. Please note that your mouse's DPI and your Roblox in-game sensitivity will highly impact this.
+AIM_SPEED_X = 0.34
+AIM_SPEED_Y = 0.34
+# Do not increase these beyond 1
+
+# You probably don't have to change this, but if it aims too far to the left, decrease the X offset. If it's too far to the right, increase it.
+# If it aims too high up, increase the Y offset. If it aims too far down (doesn't hit headshots), decrease the Y offset.
+AIM_OFFSET_X = 7
+AIM_OFFSET_Y = 9
+
+# Set the color of enemies to aim at. Yellow, Pink/Purple, Blue, Green, Cyan, 0000ff, Aimblox or Custom.
+COLOR = Yellow
+# If you're playing Bad Business, use 0000ff or with outline transparency set to 0.
+# You also have black & red but they don't work that well on arsenal
+
+# Settings for the Custom COLOR. To get the HSV use this tool https://github.com/hariangr/HsvRangeTool tutorial soon
+UPPER_COLOR = 38, 255, 203
+LOWER_COLOR = 30, 255, 201
